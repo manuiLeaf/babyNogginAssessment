@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>333E24D6-4D8D-4394-92E8-4382BC43163A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BabyNoggin</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3009CB1F4C23F3A15A9414EE3D2B6CF9841CEA32</key>
+		<string>https://github.com/ileafsolutions/babyNogginAssessment.git</string>
+		<key>31C881C0C28B687A94C2C4275F2B9E5C0926E6BB</key>
+		<string>https://github.com/manuiLeaf/babyNogginAssessment.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BabyNoggin/BabyNoggin.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3009CB1F4C23F3A15A9414EE3D2B6CF9841CEA32</key>
+		<string>../../../../babyNogginAssessment</string>
+		<key>31C881C0C28B687A94C2C4275F2B9E5C0926E6BB</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/manuiLeaf/babyNogginAssessment.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>31C881C0C28B687A94C2C4275F2B9E5C0926E6BB</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>31C881C0C28B687A94C2C4275F2B9E5C0926E6BB</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Aneesh</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3009CB1F4C23F3A15A9414EE3D2B6CF9841CEA32</string>
+			<key>IDESourceControlWCCName</key>
+			<string>babyNogginAssessment</string>
+		</dict>
+	</array>
+</dict>
+</plist>

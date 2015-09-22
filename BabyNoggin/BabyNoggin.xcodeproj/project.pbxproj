@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15402B961BB14C9700DFB681 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15402B951BB14C9700DFB681 /* AppDelegate.swift */; };
+		15402B981BB14C9700DFB681 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15402B971BB14C9700DFB681 /* ViewController.swift */; };
+		15402B9B1BB14C9700DFB681 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15402B991BB14C9700DFB681 /* Main.storyboard */; };
+		15402B9D1BB14C9700DFB681 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15402B9C1BB14C9700DFB681 /* Images.xcassets */; };
+		15402BA01BB14C9700DFB681 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15402B9E1BB14C9700DFB681 /* LaunchScreen.xib */; };
+		15402BAC1BB14C9700DFB681 /* BabyNogginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15402BAB1BB14C9700DFB681 /* BabyNogginTests.swift */; };
+		15402BB81BB157C300DFB681 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15402BB71BB157C300DFB681 /* AVFoundation.framework */; };
+		15402BBA1BB158A400DFB681 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15402BB91BB158A400DFB681 /* MediaPlayer.framework */; };
+		15402BBC1BB1594900DFB681 /* video.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 15402BBB1BB1594900DFB681 /* video.mp4 */; };
+		15402BBE1BB15EA600DFB681 /* TestStartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15402BBD1BB15EA600DFB681 /* TestStartController.swift */; };
+		15402BCB1BB1713400DFB681 /* SingletonClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15402BCA1BB1713400DFB681 /* SingletonClass.swift */; };
+		15402BCF1BB17A4500DFB681 /* TestResposeOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15402BCE1BB17A4500DFB681 /* TestResposeOption.swift */; };
+		15402BD31BB1825700DFB681 /* ResultController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15402BD21BB1825700DFB681 /* ResultController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		15402BA61BB14C9700DFB681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 15402B881BB14C9700DFB681 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 15402B8F1BB14C9700DFB681;
+			remoteInfo = BabyNoggin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15402B901BB14C9700DFB681 /* BabyNoggin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyNoggin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15402B941BB14C9700DFB681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15402B951BB14C9700DFB681 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15402B971BB14C9700DFB681 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		15402B9A1BB14C9700DFB681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15402B9C1BB14C9700DFB681 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		15402B9F1BB14C9700DFB681 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		15402BA51BB14C9700DFB681 /* BabyNogginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyNogginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		15402BAA1BB14C9700DFB681 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15402BAB1BB14C9700DFB681 /* BabyNogginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyNogginTests.swift; sourceTree = "<group>"; };
+		15402BB51BB1576200DFB681 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		15402BB71BB157C300DFB681 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		15402BB91BB158A400DFB681 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		15402BBB1BB1594900DFB681 /* video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video.mp4; sourceTree = "<group>"; };
+		15402BBD1BB15EA600DFB681 /* TestStartController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestStartController.swift; sourceTree = "<group>"; };
+		15402BCA1BB1713400DFB681 /* SingletonClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SingletonClass.swift; sourceTree = "<group>"; };
+		15402BCE1BB17A4500DFB681 /* TestResposeOption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestResposeOption.swift; path = ../TestResposeOption.swift; sourceTree = "<group>"; };
+		15402BD21BB1825700DFB681 /* ResultController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15402B8D1BB14C9700DFB681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15402BBA1BB158A400DFB681 /* MediaPlayer.framework in Frameworks */,
+				15402BB81BB157C300DFB681 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15402BA21BB14C9700DFB681 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15402B871BB14C9700DFB681 = {
+			isa = PBXGroup;
+			children = (
+				15402BB91BB158A400DFB681 /* MediaPlayer.framework */,
+				15402BB71BB157C300DFB681 /* AVFoundation.framework */,
+				15402BB51BB1576200DFB681 /* AVKit.framework */,
+				15402B921BB14C9700DFB681 /* BabyNoggin */,
+				15402BA81BB14C9700DFB681 /* BabyNogginTests */,
+				15402B911BB14C9700DFB681 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15402B911BB14C9700DFB681 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15402B901BB14C9700DFB681 /* BabyNoggin.app */,
+				15402BA51BB14C9700DFB681 /* BabyNogginTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15402B921BB14C9700DFB681 /* BabyNoggin */ = {
+			isa = PBXGroup;
+			children = (
+				15402BBF1BB15EAC00DFB681 /* Media */,
+				15402B951BB14C9700DFB681 /* AppDelegate.swift */,
+				15402B971BB14C9700DFB681 /* ViewController.swift */,
+				15402BBD1BB15EA600DFB681 /* TestStartController.swift */,
+				15402BCE1BB17A4500DFB681 /* TestResposeOption.swift */,
+				15402BD21BB1825700DFB681 /* ResultController.swift */,
+				15402B991BB14C9700DFB681 /* Main.storyboard */,
+				15402B9C1BB14C9700DFB681 /* Images.xcassets */,
+				15402B9E1BB14C9700DFB681 /* LaunchScreen.xib */,
+				15402B931BB14C9700DFB681 /* Supporting Files */,
+			);
+			path = BabyNoggin;
+			sourceTree = "<group>";
+		};
+		15402B931BB14C9700DFB681 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15402B941BB14C9700DFB681 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15402BA81BB14C9700DFB681 /* BabyNogginTests */ = {
+			isa = PBXGroup;
+			children = (
+				15402BAB1BB14C9700DFB681 /* BabyNogginTests.swift */,
+				15402BA91BB14C9700DFB681 /* Supporting Files */,
+			);
+			path = BabyNogginTests;
+			sourceTree = "<group>";
+		};
+		15402BA91BB14C9700DFB681 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15402BAA1BB14C9700DFB681 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15402BBF1BB15EAC00DFB681 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				15402BBB1BB1594900DFB681 /* video.mp4 */,
+				15402BCA1BB1713400DFB681 /* SingletonClass.swift */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15402B8F1BB14C9700DFB681 /* BabyNoggin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15402BAF1BB14C9700DFB681 /* Build configuration list for PBXNativeTarget "BabyNoggin" */;
+			buildPhases = (
+				15402B8C1BB14C9700DFB681 /* Sources */,
+				15402B8D1BB14C9700DFB681 /* Frameworks */,
+				15402B8E1BB14C9700DFB681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyNoggin;
+			productName = BabyNoggin;
+			productReference = 15402B901BB14C9700DFB681 /* BabyNoggin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		15402BA41BB14C9700DFB681 /* BabyNogginTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15402BB21BB14C9700DFB681 /* Build configuration list for PBXNativeTarget "BabyNogginTests" */;
+			buildPhases = (
+				15402BA11BB14C9700DFB681 /* Sources */,
+				15402BA21BB14C9700DFB681 /* Frameworks */,
+				15402BA31BB14C9700DFB681 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				15402BA71BB14C9700DFB681 /* PBXTargetDependency */,
+			);
+			name = BabyNogginTests;
+			productName = BabyNogginTests;
+			productReference = 15402BA51BB14C9700DFB681 /* BabyNogginTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15402B881BB14C9700DFB681 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = ileaf4;
+				TargetAttributes = {
+					15402B8F1BB14C9700DFB681 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					15402BA41BB14C9700DFB681 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 15402B8F1BB14C9700DFB681;
+					};
+				};
+			};
+			buildConfigurationList = 15402B8B1BB14C9700DFB681 /* Build configuration list for PBXProject "BabyNoggin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15402B871BB14C9700DFB681;
+			productRefGroup = 15402B911BB14C9700DFB681 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15402B8F1BB14C9700DFB681 /* BabyNoggin */,
+				15402BA41BB14C9700DFB681 /* BabyNogginTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15402B8E1BB14C9700DFB681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15402BBC1BB1594900DFB681 /* video.mp4 in Resources */,
+				15402B9B1BB14C9700DFB681 /* Main.storyboard in Resources */,
+				15402BA01BB14C9700DFB681 /* LaunchScreen.xib in Resources */,
+				15402B9D1BB14C9700DFB681 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15402BA31BB14C9700DFB681 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15402B8C1BB14C9700DFB681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15402BCB1BB1713400DFB681 /* SingletonClass.swift in Sources */,
+				15402B981BB14C9700DFB681 /* ViewController.swift in Sources */,
+				15402BD31BB1825700DFB681 /* ResultController.swift in Sources */,
+				15402BCF1BB17A4500DFB681 /* TestResposeOption.swift in Sources */,
+				15402BBE1BB15EA600DFB681 /* TestStartController.swift in Sources */,
+				15402B961BB14C9700DFB681 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		15402BA11BB14C9700DFB681 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15402BAC1BB14C9700DFB681 /* BabyNogginTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		15402BA71BB14C9700DFB681 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 15402B8F1BB14C9700DFB681 /* BabyNoggin */;
+			targetProxy = 15402BA61BB14C9700DFB681 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		15402B991BB14C9700DFB681 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15402B9A1BB14C9700DFB681 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15402B9E1BB14C9700DFB681 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15402B9F1BB14C9700DFB681 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15402BAD1BB14C9700DFB681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15402BAE1BB14C9700DFB681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15402BB01BB14C9700DFB681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BabyNoggin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15402BB11BB14C9700DFB681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BabyNoggin/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		15402BB31BB14C9700DFB681 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BabyNogginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyNoggin.app/BabyNoggin";
+			};
+			name = Debug;
+		};
+		15402BB41BB14C9700DFB681 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BabyNogginTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BabyNoggin.app/BabyNoggin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15402B8B1BB14C9700DFB681 /* Build configuration list for PBXProject "BabyNoggin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15402BAD1BB14C9700DFB681 /* Debug */,
+				15402BAE1BB14C9700DFB681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15402BAF1BB14C9700DFB681 /* Build configuration list for PBXNativeTarget "BabyNoggin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15402BB01BB14C9700DFB681 /* Debug */,
+				15402BB11BB14C9700DFB681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15402BB21BB14C9700DFB681 /* Build configuration list for PBXNativeTarget "BabyNogginTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15402BB31BB14C9700DFB681 /* Debug */,
+				15402BB41BB14C9700DFB681 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15402B881BB14C9700DFB681 /* Project object */;
+}
